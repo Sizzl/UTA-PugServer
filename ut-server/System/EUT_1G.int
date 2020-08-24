@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=EUT_1G.SmartCTFGame,Class=Class,MetaClass=BotPack.TournamentGameInfo,Description="Smart CTFGame")
+Object=(Name=EUT_1G.EUTTeamGamePlus,Class=Class,MetaClass=BotPack.TournamentGameInfo,Description="EUT TDM")
+Object=(Name=EUT_1G.EUTDeathMatchPlus,Class=Class,MetaClass=BotPack.TournamentGameInfo,Description="EUT DM")

@@ -1,0 +1,52 @@
+=============================================================================
+Title                : Submarinebase][
+Filename             : AS-Submarinebase][.ZIP (AS-Submarinebase][.unr, AS-Submarinebase][.txt, Submarine2.utx and Sub2.umx)
+Version              : 1.0
+
+Description          : Assault map for Unreal Tournament
+Author               : Grzegorz Kubicki
+Email Address        : gkubicki@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: AS-Escape, AS-Submarinebase, AS-Riverbed&AL, AS-Riverbed2, AS-Bioassault,
+                       AS-HeavyWaterFactory, AS-Wolf  
+                      
+Thanks to            : Mickal Krall, Phear and the whole -=]NRG[=- + all others for playtesting my map
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+Unzip the Subamrine2.utx to your unrealtournament/textures directory.
+Unzip the Sub2.umx to your unrealtournament/music directory.
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-Submarinebase][
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : Yes
+New Graphics            : Some textures
+Ideal Player Load       : 12-14
+ 
+=============================================================================
+Construction Time       : About a month, on and off........this map is 13,000 polys big!
+=============================================================================
+Notes                   : You should explore the map fully to understand it, one small thing
+that the beta testers missed was that you can jump onto the fan on roof to blow you forward.
+Anyway take a look and you´ll understand.
+Once the submarine is entered by attackers the top entrance opens after 1 min.
+And for all Assault League clan members here is one tip, open up the map in UnrealEd ;) 
+
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Feel free to do whatever you want with this level, as long
+as you ask me first.
+
+
+

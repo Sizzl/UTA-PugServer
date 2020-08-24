@@ -1,0 +1,160 @@
+
+================================================================
+Title                   : AS-LavaFort][
+
+Author                  : Claude Meyer aka Mier
+
+Date                    : 14th April 2000
+
+Filename                : AS-LavaFort][.zip
+
+File contents           : AS-LavaFort][.unr (Map)
+			  ASLavaFort][.utx (Textures)
+			  AS-LavaFort][.txt (This file)
+			
+Email Address           : icedragon@sl.lu
+
+Home Page		: http://members.xoom.com/ggcap
+
+Description             : You mission:
+
+			  - Destroy the 2 fuses to open the main fort gate or find
+			    another way inside.
+
+			  - Get over the lavapit and destroy the enemy lava energy
+			    generator.
+
+			 This is the second release of my first map. 
+
+			  Too many things have changed to list them all but here
+			  are the important ones:
+
+			  - Added a door to the attackers spawnpoint. It will automaticly
+			    explode after 10 secs giving the defense some more time
+			    to get organized.
+
+			  - Made the cave leading to the fort larger so that it'll not 
+			    be possible to stop the attackers by shooting grenades, 
+			    flakshells etc... around the corner..
+
+			  - A bridge that leads over a lava pool was added
+
+			  - No more easy hammerjumping inside the Fort. Well, it's
+			    still possible just a lot harder to do.
+			    There are 2 different ways to hammerjump inside (the
+ 			    easier one needs 2 hammerjumps, the other one only
+			    1). Be sure however that the minigun-cannon is temporarily
+		            disabled before you try or else it will be nearly impossible
+			    to get inside.
+
+			  - The attacker's spawnpoint will change to a closer position
+			    after about 5 mins. This should make the game more interesting
+			    at the end and give weak attackers more chance to win.
+
+			  - The minnigun-cannon is now on the other side and more of a
+			    threat now. However it's still possible to sneak around it...
+			    (And don't forget that you can disable it for a while
+			    by shooting at it)
+
+			  - You'll have to destroy the 2 energy-fuses (to open Lock 1 & 2)
+			    instead of the gate-controller to open the fort gates. The main
+			    gate takes about 10 seconds to open; again to leave the
+			    defenders a bit more time to get organized.
+
+			  - There are a few new building inside the fort now with some
+			    interesting sniper places for the defenders _and_ attackers...
+
+			  - There are now 3 possible ways over the lavapit. 
+			    1) Using the lift
+			    2) You'll have a chance of escaping the lavapit...
+			    3) I bet you'll find that one too (Hint: No hammerjumps 
+			       needed, it has something to do with the lift...)
+			    The only way where the player takes no damage is nr 1.
+
+			  - As mentioned before, there now is a possibility to escape 
+			    the lavapit. If you fall into the pit you can still try
+			    (if you got enough health/armor) to swim to the side and 
+			    enter the small cave. From there you can go up through
+			    the fan room to the main base.
+
+			  - The other side of the lift now has some sort of base. 				    
+		            The defenders spawn there and can take teleporters to
+			    different places on the map or just get out of the base
+			    to defend the final objective. There are now only 3 teleporters
+			    instead of 4.
+
+			  - Much better bot support...
+
+			  - LOTS of visual changes...
+
+			  - Item/weapon placement changes...
+
+			  - Map screenshots...
+
+
+
+
+
+
+Comments		: Thanks go to Arl, Don, Lee, Ned & Speden 
+			  for betatesting :).
+
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes
+Deathmatch              : No
+Assault			: Yes
+Recommended No. Bots    : 5-15 (In singleplayer assault)
+Recommended No. Players : 6-16
+Comments		: 
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-LavaFort][.unr" into your UnrealTournament/Maps folder.
+Unzip "ASLavaFort][.utx" into your UnrealTournament/Textures folder.
+
+
+KNOWN Problems: Bots still jump into the lava sometimes...
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd
+
+Build Time              : a lot
+
+
+===================================================================
+
+Other maps by Author:
+
+AS-Bridge
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

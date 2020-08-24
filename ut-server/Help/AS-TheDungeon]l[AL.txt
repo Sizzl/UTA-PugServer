@@ -1,0 +1,55 @@
+=============================================================================
+Title                : AS-TheDungeon]l[AL
+Filename             : AS-TheDungeon]l[AL.zip (AS-TheDungeon]l[AL.unr golgoth.umx gotgotha.utx carpet.utx)
+Version              : AL Final
+
+Description          : UT Assault League map [www.utassault.net]
+Author               : Sidoh
+Email Address        : Sidoh@adelphia.net
+
+Misc. Author Info    : Other maps - AS-UMS ; AS-Stratosphere ; AS-The_Dungeon][ ; AS-Moveout][ ; AS-The_Dungeon ; AS-Space_Reactor_beta5 ; AS-UFO_Beta2
+                      
+Thanks to            : rar
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the AS-TheDungeon]l[AL.unr to your unrealtournament/maps directory.
+Unzip the golgoth.umx to your unrealtournament/music directory.
+Unzip the gotgotha.utx to your unrealtournament/textures directory.
+Unzip the carpet.utx to your unrealtournament/textures directory.
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-TheDungeon]l[AL
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : No
+New Music               : Yes
+New Graphics            : Yes
+Ideal Player Load       : 4-12
+ 
+=============================================================================
+Construction Time       : zZZzzZZzzZzz
+=============================================================================
+Notes                   : No Botpathing / No F3
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.

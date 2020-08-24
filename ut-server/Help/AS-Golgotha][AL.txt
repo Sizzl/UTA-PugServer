@@ -1,0 +1,99 @@
+================================================================
+Title                   : Golgotha][AL  version 1.1
+
+Authors                 : GRZ/Zyx/Weirdo
+
+Date                    : March 2005
+
+Filename                : AS-Golgotha2AL.zip
+
+File contents           : AS-Golgotha][AL.unr (Map)
+			  golgotha2.utx (Textures)
+			  wt3.utx (Textures)
+			  wt4.utx (Textures)
+			  Golgo2s.uax (Sound)
+			  AS-Golgotha][AL.txt (This file)
+
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes
+Deathmatch              : No
+(League) Assault	: Yes
+Recommended No. Bots    : 7-15 (In singleplayer assault)
+Recommended No. Players : 8-16
+
+================================================================
+
+Comments	  (GRZ)	: Original Golgotha][ final is extremly buggy and has a few flaws.
+			  This AL version has all spawn issues with objectives completed
+			  in alternative routes problems solved.
+			  
+			  Also I added 2 new teleporters for defense. 1 teleporter at start
+			  defense spawn to take you to Main Castle, mainly so you can have
+			  an overview of possible launches.
+
+		          Second teleporter is in the second defense spawn that takes you to
+			  the Castle wall.
+
+		     	  Changed a few textures in mid and end section inside the towers.
+
+		     	  People had problems running the map on their servers, this was mainly
+			  due to golgo.u file, which now is imported into the map itself and is
+			  no longer needed (thx to Weirdo).
+
+		     	  Some minor weapon reposition at end and other various glitches.
+			  
+			  Enjoy
+
+			  Grz
+
+Comments	(Weirdo): The blockall actor count has been reduced from 2177 to just over 870
+			  and all the hole-filling has been optimised to avoid "sticky" walls.
+			  
+			  A few tweaks have been made around the map, including the end-scene,
+			  which is now sync'd perfectly.
+
+			  As mentioned, the meshes have now been imported directly to the map
+			  eliminating the need for the serverpackage, so the texture download
+			  is now only triggered when the map is in-play.
+  
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Golgotha][AL.unr" into your UnrealTournament/Maps folder.
+Unzip "golgotha2.utx" into your UnrealTournament/Textures folder.
+Unzip "wt3.utx" into your UnrealTournament/Textures folder.
+Unzip "wt4.utx" into your UnrealTournament/Textures folder.
+Unzip "Golgo2s.uax" into your UnrealTournament/sounds folder.
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd 1.0 & 2.0
+Build Time              : A million cups of coffee...
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.

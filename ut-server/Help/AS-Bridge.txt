@@ -1,0 +1,159 @@
+*********************** IMPORTANT NOTICE ***********************
+
+I am submitting this map under my name in lieu of Claude Meyer 
+for the "Make Something Unreal Contest." 
+
+I DO NOT TAKE CREDIT FOR THIS MAP IN ANY WAY, SHAPE, OR FORM
+
+Don Pierce
+
+****************************************************************
+
+Title                   : AS-Bridge     - Updated Version (#2) -
+
+Author                  : Claude Meyer aka Mier
+
+Date                    : 6 Mar 2000
+
+Filename                : AS-Bridge.zip
+
+File contents           : AS-Bridge (Map)
+			  Mier02Tex.utx (Textures)
+                          AS-Bridge.txt (This file) 	
+
+			
+Email Address           : icedragon@sl.lu 
+
+Home Page		: http://members.xoom.com/ggcap
+
+
+Changes in this ver.    : - Added more playerstarts
+			  - Aligned some more textures
+			  - Added a light over each lift at the main gates
+			  - Fixed Advanced Guard Tower. It will now shoot rockets;
+			    also added a small display that shows when AGT is active;
+			    and added sounds to AGT when it opens
+			  - Decorated a bit
+			  - Main Gates will open after second spawnpoint has
+			    been activated
+			  - Fixed a bug that when opening the final Spawnpoint without
+			    opening the second one first would cause attackers to spawn
+			    on all three spawnpoints. 
+			    If you open the final Spawnpoint you'll automaticly open
+			    the second one if it's not already open.
+			  - Lights over defenders teleporters will be turned off depending
+			    on how far the assaulting team is.	(suggested by Speden)	
+
+			    (If anyone has some info on the assaultrandomizers
+			     please contact me; I can't get them working)	
+
+     			Thanks to all the people for bug reports.
+
+
+Description             : This is my second map.
+				
+			  This map is rather large; your goals are:
+
+			  - to enter the enemy base
+			  - fight your way through the lower and upper base to
+			    reach the bridge
+			  - Set 4 explosive charges on the bridge and detonate it
+
+			  You have a total of 16 minutes time to finish the mission.
+			  2 more assault spawnpoints can be discovered (not necessary
+			  to finish but recommended).
+
+				
+Comments		: Thanks to all the people that responded to my question about
+			  the screenshot and to all those that sent me comments. :)
+
+			  Your comments about this new map are welcome. If you want
+			  the latest info on my upcoming maps then visit my new homepage
+			  at: http://members.xoom.com/ggcap
+
+			  I created the map on a P2 333 with 192MB RAM Voodoo3 2000 and it 
+			  runs fine. If I play it with 16 bots however it will slow down 
+			  in the large outdoor areas when many bots are on the screen.
+
+			
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes (Bots act pretty good. Set them at least 
+			  to Adept and they will even hammerjump sometimes) :)
+			  Anyways, if you're a good UT player, even godlike bots
+			  won't be a match for you.
+Deathmatch              : No
+Assault			: Yes
+Recommended No. Bots    : 7-15
+Comments		: There are a lot of places where you can take several ways
+			  or even hammerjump. With the 2 more Assault spawnpoints
+			  there sould be non-stop action as soon as the base has been
+			  entered. 
+			
+			  When defending be sure to check out the 'advanced guard tower'.
+			  It's located in the defenders	starting base on the 2nd floor.
+			  When you're in front of the panel it will activate the missile
+			  cannon. You can even snipe incoming attackers while standing
+ 			  there. Hope you like this new feature.
+			  	
+			  Big thanks to Arl & Don for playtesting this map for me 
+			  and giving me valuable comments. :)
+
+			  Big thanks to Don for submiting this map to the 'Make Something
+			  Unreal Contest' on my behalf.
+
+			  I'll probably release an AS-Bridge][ version with bigger changes
+			  someday... ...but don't ask me when that day will be ;).
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Bridge.unr" into your UnrealTournament/Maps folder.
+Unzip "Mier02Tex.utx" into your UnrealTournament/Textures folder.
+
+
+KNOWN Problems: Sometimes a few minor HOM effects...
+		Performance could be a bit better in outside areas... 
+		If you find any more bugs please inform me.
+
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd
+
+Build Time              : 3 sleepless weeks... 
+
+
+===================================================================
+
+Other maps by Author:
+
+AS-LavaFort
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

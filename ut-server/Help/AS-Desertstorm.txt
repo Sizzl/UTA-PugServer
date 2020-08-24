@@ -1,0 +1,56 @@
+=============================================================================
+Title                : Operation Desertstorm
+Filename             : AS-Desertstorm.zip (AS-desertstorm.unr, AS-desertstorm.txt, deserttt.uax and AdesertS.utx)
+Version              : 1.0
+
+Description          : Assault map for Unreal Tournament
+Author               : Grzegorz Kubicki
+Email Address        : gkubicki@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: AS-Escape, AS-Submarinebase, AS-Riverbed&AL, AS-Riverbed][, AS-Bioassault,
+                       AS-HeavyWaterFactory, AS-Wolf, AS-Submarinebase][, AS-Riverbed]I[ and AS-Golgotha
+                      
+Thanks to            : Mickal Krall, Phear, Crusader  all -=]NRG[=- and ((si><th)) members + all others for playtesting my map
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the .unr to your unrealtournament/maps directory.
+Unzip the adeserts.utx to your unrealtournament/textures directory.
+Unzip the deserttt.uax to your unrealtournament/sound directory.
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-Desertstorm
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : Yes
+New Music               : No
+New Graphics            : Some textures
+Ideal Player Load       : 8-12
+ 
+=============================================================================
+Construction Time       : Lots of smokes,mp3 and beer the map is over 20 000 polys
+=============================================================================
+Notes                   : The map is made mainly for multiplayer so I didnt bother
+to make a perfect botplay, couse I dubt that there are many people playing against bots...
+But they should give you an idea how the map plays, enjoy.
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+

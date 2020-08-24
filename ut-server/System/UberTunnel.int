@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=UberTunnel.utMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="&UberTunnel, Click to configure the remote control for the tunnel")

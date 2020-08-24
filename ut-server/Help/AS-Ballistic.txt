@@ -1,0 +1,139 @@
+****************************************************************
+
+Title                   : AS-Ballisic
+
+Author                  : SteelHORN
+
+Date                    : 06 Oct 2000
+
+Filename                : AS-ballistic
+
+File contents           : AS-ballistic
+			  ballistic.utx
+                          ballistic.txt (This file) 	
+
+			
+Email Address           : imurray@btinternet.com
+
+Home Page		: http://www.btinternet.com/~imurray
+
+
+Description             : The Tournament has just recently gained the rights to
+			  replay the terrorist operation that triggered World War 3.
+			  If you are not aware of how these historical events took place
+			  then let me summarize the known parts of it.
+
+			  It all started on February 12th 2036. The worlds governments
+			  had long tried to sign a permanent peace treaty, though the plan
+			  had been halted because no land was seen as truly neutral. As a 
+			  solution a member of each nation was sent onto a space station  
+			  built especially  for this treaty.
+
+			  Now all this may seem innocent enough, and no reason for a World
+			  War that almost destroyed Earth, but as it seems not all were 
+			  interested in a final peace. 
+
+			  A group of terrorists infiltrated a well guarded military base, to
+			  launch a missile at the space station and destroy it.  Whether these
+			  persons were Mercenaries for arms dealers, terrorists, a highly 
+			  secret military group working for an unknown government or someone 
+			  else has never been discovered. A lot of conspiracy theories have been 
+			  proposed, but none have been proven nor disproved.
+
+			  In this tournament the attacking group are playing the terrorist group, 
+			  whose goal is to infiltrate the missile base, and  launch the nuclear missile 
+			  to destroy the space station, while the defending team is to prevent this. 
+			  The space station will be out of reach 10 minutes after start of the map.
+
+				
+Comments		:  You should be able to follow this map through without getting lost.  The
+			   bots know the way anyway.  That said there's a fair bit to discover in
+			   the map to improve your assault time.
+
+			   There is another version of the map with a much better end sequence.
+			   However this caused 4.13 clients to crash when on +4.20 servers.
+			   The version is still available at http://  should you want it
+
+
+Credits			:  
+			   Original map concept	- ZerOne
+			   Alpha Testing	- Equalisatium, Phear
+			   Beta Testing		- + Clan pi8, Novelty, 
+						  Bug, Twonko, Cypher
+			   Bug fix proove out	- Equalisatium, Bazurk
+			   Gameplay Enhancment	- Equalisatium
+			   Objective Details	- Equalisaiium
+			   Gameplay testing	- Members of EoS, NRG, ION
+
+			   Plus thanks to Wolf's Unreal and unrealed.exe
+			   for the forums with all the answers.  
+			   Mr Jones for the multiple sky boxes solution.
+			   www.utassault.net for a home for Assaulters and
+			   providing a server for testing.
+			   And Foo for convincing me the attackers needed
+			   more cover at the start.
+
+			
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes
+Online Assault		: Yes
+Recommended No. Bots    : 6-12.  Use some bots with a fair/high 
+				 camp setting for an even harder game
+
+Comments		: Gameplay/strategy enhancements with alot of
+			  help from Equalisatium.  Designed specifically
+			  with online matches in mind.
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-Ballistic.unr" into your UnrealTournament/Maps folder.
+Unzip "ballistic.utx" into your UnrealTournament/Textures folder.
+
+
+Known Problems:		Fans do not rotate for clients online??
+			Most players get a 'foggy' view of the 
+			end sequence in online play.
+			 
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd v4.13 and beyond
+
+Build Time              : Since March
+
+
+===================================================================
+
+Other maps by Author:
+
+AS-Throne
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

@@ -1,0 +1,51 @@
+-UTA-Map-Pack-5.1:
+This Package Contains Map Files Needed To Be Able To Play In The UTAssault.net leagues.
+
+-The Following Maps Should Have Been Installed:
+  AS-AsthenosphereAL
+  AS-Asthenosphere     
+  AS-AutoRIP 
+  AS-Ballistic 
+  AS-Bridge
+  AS-DesertStorm 
+  AS-Desolate][
+  AS-GolgothaAL
+  AS-Golgotha][AL 
+  AS-GuardiaAL 
+  AS-Lavafort][ 
+  AS-OceanfloorAL
+  AS-RiverbedAL
+  AS-Riverbed]|[AL
+  AS-Siege][
+  AS-SubmarineBase][
+
+-The Installation Should Be correct If you have installed to the Unreal Tournament Directory.
+ Usually:
+C:\UnrealTournament
+
+-You Must Have The Following Installed To Use These Maps For The League:
+UT-Patch v436
+UT Bonuspack #1
+UT Bonuspack #2
+UT Bonuspack #3
+League Assault (LeagueAS)
+
+-To Download These Files Visit:
+http://www.utassault.net/leagues/required.php
+
+**IMPORTANT**
+You need a UTA forum account to be able to join UTA league servers for league matches.
+Register an account at: http://forums.utassault.net/
+
+-If You Have Any Problems With This Pack E-mail Me:
+X-Bomb@so-lid.co.uk
+
+============================================================================
+
+-If You Would Like To Know More About The UTAssault.net League Visit:
+http://www.utassault.net
+
+==USE THIS PACK AT YOUR OWN RISK! DONT BLAME ME IF ANYTHING GOES WRONG==
+
+Some Websites You May like to Visit:
+http://www.rocketjump.co.uk - (-8-) Invincible Snowmen Clan

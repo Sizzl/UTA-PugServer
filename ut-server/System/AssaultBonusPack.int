@@ -1,0 +1,5 @@
+; AssaultBonusPack: "AssaultBonusPack" Stefan Daniel Schwarz <assault@eavy.de>
+[Public]
+Object=(Name=AssaultBonusPack.EavyAssaultPlus,Class=Class,MetaClass=Engine.Mutator,Description="AssaultBonuspack417,EavyAssaultPlus")
+Object=(Name=AssaultBonusPack.AssaultMenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="AssaultBonuspack417,EavyAssaultPlus")
+Object=(Name=AssaultBonusPack.AssaultKeyBindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="AssaultBonuspack417,EavyAssaultPlus")

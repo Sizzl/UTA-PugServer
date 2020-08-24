@@ -1,0 +1,63 @@
+-------------------PRESS F3 FOR MISSION OBJECTIVES-----------------
+
+
+Title                : AS-Siege][	
+Author               : M. Berndt 'aka' Lord_M
+Email Address        : gamemaster@3dgamer.de
+
+Web Page             : http://www.3dgamer.de
+
+Date                 : 05.03.2000 
+fix & update ver.2   : 11.01.2003
+Description          : Assault
+Player               : 6-12 (ideal count 10)
+Files                : AS-Siege][.unr
+                       Readme.txt
+Version              : Final ver.2 - server-only
+NOTE                 : if you are using 'infiltration-mod', you must
+                       set 'destructable decoration' to NO!
+
+about this version   : - fixed server version (server crash after some playtime fixed)
+                       - no bots available
+                       - fixed scaling
+
+MISSION:     You must conquer an old castle. For this, you must open 
+             some doors. At the end you must reach the top of the 
+             highest tower. (Press F3 for more infos)
+
+
+
+-- Construction --
+Editor used            : UnrealED Beta
+Base                   : None
+Construction Time      : 3-4 months 
+
+
+-- Installation --
+Unzip the .unr file into your Unrealtournament/maps/ directory
+
+
+                     -- Copyright --
+
+        This level is copyright Martin Berndt 2000 & 2003.
+
+        Authors may not NOT use this level as a base 
+                to build additional levels.
+
+
+
+
+Credits:    Thanks to
+            U.Sachs who build up the gatehouse.
+            C.Dornhege who worked out some tutorials.
+              
+            thx 2 the ut-assault-league (http://www.utassault.net/)
+            and 2 tnega who fixed the server-crash-thing-whatever
+
+
+
+UNREAL © 1998 Epic Megagames, Inc. All Rights Reserved. Distributed
+by GT Interactive Software, Inc. under license. UNREAL and the UNREAL
+logo are registered trademarks of Epic Megagames, Inc. All other
+trademarks and trade names are properties of their respective owners. 
+            

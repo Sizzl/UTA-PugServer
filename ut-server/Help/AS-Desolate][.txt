@@ -1,0 +1,58 @@
+=============================================================================
+Title                : AS-Desolate][
+Filename             : Desolate][.zip (AS-Desolate][.unr, AS-Desolate][.txt, mutts.uax and machines.umx)
+Version              : 2.0
+
+Description          : Assault map for Unreal Tournament
+Author               : Richard "Muttley" Cartwright
+Email Address        : richardc1981@hotmail.com
+
+Misc. Author Info    : Previous UT assault level: AS-DasBoot, AS-Sabotage and AS-Sabotage][, AS-Desolate
+                       AS-DawnRaidBeta, AS-SnowdunesBeta.
+                      
+Thanks to            : =[FDC]=jwer_NL for gameplay and testing and loads of other stuff :)
+                       GRZ for redoing the maps looks completely and getting rid of all bsp's and homs!
+                       Everyone else who playtested the map!
+
+=============================================================================
+
+-=[ Installation ]=-
+
+Unzip the AS-Desolate.unr to your unrealtournament/maps directory.
+Unzip the mutts.uax to your unrealtournament/sound directory.
+Unzip the Machines.umx to your unrealtournament/music directory.
+
+-=[ Play Information ]=-
+
+Game                    : Unreal Tournament
+Map                     : AS-Desolate][
+Deathmatch              : No
+Domination		: No
+CTF			: No
+Assault			: Yes
+New Sounds              : Yes
+New Music               : Yes (thanks Turha for the class tune!)
+New Graphics            : No
+Ideal Player Load       : 8-12
+ 
+=============================================================================
+Construction Time       : 3-4 months on original, 2 months on ][
+=============================================================================
+Notes                   : Have fun :)
+=============================================================================
+
+-=[ Copyright / Permissions / Distribution Information ]=-
+
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!  This INCLUDES putting it on ftp.cdrom.com which have a
+tendancy to do just as such or any other major ftp that bundles cd-roms
+out of what they carry.
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+

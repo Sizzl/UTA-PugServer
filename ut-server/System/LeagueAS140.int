@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=LeagueAS140.LeagueAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=LeagueAS140.Menu_MenuItem,Class=Class,MetaClass=UMenu.UMenuModMenuItem,Description="League Assault 140")
+Object=(Name=LeagueAS140.EmoteKeybindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings,Description="LeagueAS Emoticons")

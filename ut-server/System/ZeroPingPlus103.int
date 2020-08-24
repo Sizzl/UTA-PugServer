@@ -1,0 +1,18 @@
+[Public]
+Object=(Name=ZeroPingPlus103.ZeroPing,Class=Class,MetaClass=Engine.Mutator,Description="ZeroPingPlus: ZeroPing, Optimized netcode for better play.")
+Object=(Name=ZeroPingPlus103.AccuGib,Class=Class,MetaClass=Engine.Mutator,Description="ZeroPingPlus: ZeroPing AccuGib, InstaGib plus ZeroPing.  Mmmmmmm.")
+Object=(Name=ZeroPingPlus103.ColorAccuGib,Class=Class,MetaClass=Engine.Mutator,Description="ZeroPingPlus: ZeroPing ColorAccuGib, InstaGib plus ZeroPing with Colored Shots!.")
+Object=(Name=ZeroPingPlus103.ZP_ShockArena,Class=Class,MetaClass=Engine.Mutator,Description="ZeroPingPlus: ZeroPing ShockArena, ShockArena with ZeroPing.")
+Object=(Name=ZeroPingPlus103.ZP_SniperArena,Class=Class,MetaClass=Engine.Mutator,Description="ZeroPingPlus: ZeroPing SniperArena, SniperArena with ZeroPing.")
+
+[AccuGib]
+bAllowTranslocator=False
+
+[ColorAccuGib]
+bAllowTranslocator=False
+
+[zp_ShockArena]
+bAllowTranslocator=False
+
+[zp_SniperArena]
+bAllowTranslocator=False

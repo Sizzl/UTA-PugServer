@@ -1,0 +1,87 @@
+================================================================
+Title                   :AS-Asthenosphere
+Version                 :1.1
+Release Date            :3/7/00
+Filename                :AS-Asthenosphere.unr
+Author(s)               :Phil "-=¤willhaven¤=-" Cole
+Email Address           :espimp@hotmail.com or willhaven@planetunreal.com
+Web Page                :www.planetunreal.com/willhaven
+Description             :In 2250, the liandri mining corporation funded the construction of 
+			a middle-earth research vessel whose purpose was to study the 
+			convection currents of magma below the earth's surface and their
+			effect on mineral deposits and land formation.
+
+			Soon after its introduction, the craft was deemed useless and it 
+			was abandoned.
+
+			Now that the tournament has taken hold of the company, it was 
+			decided that this research vessel would make a suitable arena for 
+			assault play.
+
+			The attackers, who have hidden themselves within a shipment of 
+			cargo, must infiltrate the vessel, disable the reactor cooling 
+			fans, and exit the base in one of the escape pods to avoid the 
+			nuclear explosion which will follow.
+
+Where to get this map   :www.planetunreal.com/nalicity -=- www.UTcenter.com -=- www.planetunreal.com/visions
+Other levels by author  :DM-Concatenation, DM-ExquisiteMachineryOfTorture, 
+			DM-CorridorOfChameleons, DM-StrictlyDiesel, CTF-Stronghold, 
+			CTF-Deck16]|[
+Additional Credits to   :CyberA, CliffyB, Faceless, Clawfist, ruineR, shinagami, phatas5, 
+			devilbunny... anyone cool in #unrealed, and all those who tested it,
+			pimped it, helped fix it, and gave me feedback.
+
+================================================================
+--- Play Information ---
+Game                    :UnrealTournament
+Level Name              :Asthenosphere Research Vessel
+Single Player           :no
+Cooperative             :yes... its an AS map
+Deathmatch              :no
+Dark Match              :NO!
+Difficulty Settings     :HA!
+New Sounds              :nun
+New Graphics            :level screenshots etc :)
+NewUnrealScript         :nup
+External DLLs           :(_|_)
+Known bugs              :fixed an online crash bug in version 1 due to scaled sprite actors
+			and barrel actors with the stasis set to false.
+
+--- Construction ---
+Editor(s) used          :Ued
+Base                    :
+Construction Time       :about a month
+
+
+Installation
+------------
+put it in your unrealtournament/maps directory
+
+Extended description: a simply laid out AS map with no tricks or shortcuts.
+--------------------
+
+
+Author's Notes
+--------------
+the more the merrier... 10+ players
+
+
+Copyright / Permissions
+-----------------------
+This level is copyrighted by Phil Cole 2000.
+
+Authors may not NOT use this level as a base to build additional levels.
+
+You are NOT allowed to commercially exploit this level, i.e. put it on a CD
+or any other electronic medium that is sold for money without my explicit
+permission!
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file and leave the archive
+intact.
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. All other trademarks and trade
+names are properties of their respective owners.

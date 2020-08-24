@@ -1,0 +1,110 @@
+****************************************************************
+This is a beta, please report all bugs and suggestions on forum
+at SteelhornLD, thanks for your help
+****************************************************************
+
+
+Title                   : AS-AutoRIP Pre-Release
+
+Author                  : SteelHORN
+
+Date                    : 02 Feb 2001
+
+Filename                : AS-autorip
+
+File contents           : AS-autorip
+			  autorip2.utx
+			  cbrad_indus.utx
+			  autorip.uax
+			  autorip.u
+			  ripcord4.umx
+                          autorip.txt (This file)
+			  AssaultBonusPack.u 	
+
+			
+Email Address           : imurray@btinternet.com
+
+Home Page		: http://SteelhornLD.utassault.net
+
+
+Description             : I'll do it later
+
+				
+Other Maps by Author	: AS-Ballistic, AS-Throne
+
+
+Credits			:  
+			   Music		- ZaGhost
+			   Alpha Testing	- MadMat, Xena, Grz
+			   Beta Testing		- Phear, Prophet, Fin,
+						  Twonko +others
+			   
+			   			
+================================================================
+
+Play Information	
+
+Single Player Assault   : Yes
+Online Assault		: Yes
+Recommended No. Bots    : 6-12.  More the better  
+
+Comments		: This is a linear type map, but only one of the
+			  objectives needs to be completed.  There are also
+			  a few things to discover along the way.
+			  There's a fair bit of interaction in this map
+			  and i've tried very hard to get the bots to 
+			  use it all.  However they sometimes get it a
+			  bit wrong :)  Expect a different game everytime you
+			  play it for the first few goes.
+                          
+=================================================================
+
+Installation instructions
+
+Unzip "AS-autorip.unr" into your UnrealTournament/Maps folder.
+Unzip "autorip2.utx" into your UnrealTournament/Textures folder.
+Unzip "autorip2.utx" into your UnrealTournament/Textures folder.
+Unzip "cbad_indus.utx" into your UnrealTournament/Textures folder.
+Unzip "autorip.u" into your UnrealTournament/System folder.
+Unzip "autorip.uax" into your UnrealTournament/Sounds folder.
+Unzip "ripcord4.umx" into your UnrealTournament/Music folder.
+Unzip "AssaultBonusPack.u" into your UnrealTournament/System folder.
+
+Known Problems:	Endcams don't show same view when online
+		Bots don't use lifts very well
+		Test room shield switch can be a bit odd at times.
+		Bots freak out sometimes and start firing randomly, 
+		well odd but quite funny.
+			
+			 
+
+
+=================================================================
+
+Construction
+
+Editor used             : UnrealEd v4.32
+
+Build Time              : Since November
+
+===================================================================
+
+
+COPYRIGHTS/PERMISSIONS
+
+You are NOT allowed to commercially exploit this level for profit in any way,
+including but not limited to, putting it on a CD ROM or any other medium that 
+is sold in or out of retail channels, for any amount of money.  
+
+You MAY distribute this level through any electronic network (internet,
+FIDO, local BBS etc.), provided you include this file, leave the archive
+intact, and do not charge a fee for access to this file.
+
+
+===================================================================
+
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Software, Inc. under license.  UNREAL and the UNREAL logo are registered
+trademarks of Epic Megagames, Inc. All other trademarks and trade names are
+properties of their respective owners.
+

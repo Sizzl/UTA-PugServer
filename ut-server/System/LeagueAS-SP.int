@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=LeagueAS-SP.AntiHammerLaunch,Class=Class,MetaClass=Engine.Mutator,Description="Impact Hammer Launch Protection")
+Object=(Name=LeagueAS-SP.AntiRocketLaunch,Class=Class,MetaClass=Engine.Mutator,Description="Rocket Launch Protection")
+Object=(Name=LeagueAS-SP.MapVote,Class=Class,MetaClass=Engine.Mutator,Description="Map Voting")
+Object=(Name=LeagueAS-SP.iAS,Class=Class,MetaClass=Engine.Mutator,Description="InstaGIB Assault")

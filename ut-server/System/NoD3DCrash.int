@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=NoD3DCrash.NoD3DCrash,Class=Class,MetaClass=Engine.Mutator,Description="No D3d Crash Skin,Stops the Direct3D crash skin")
