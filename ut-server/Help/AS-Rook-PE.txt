@@ -1,0 +1,46 @@
+AS-Rook-[PUG]
+Pickup Game edition of the oldskool Paint the Door map.
+In order to make the map more fair and competitive i've changed a few things.
+Overal layout has not been touched but did add an alternative route to the end objective.
+
+-----------------------
+
+Changelog 31th October 2020 ( To Equalize the map ending. Defenders had an advantage here... )
+
+- Final door now opens with a touch-trigger. The door itself still takes about 20 sec.
+- Redone the alternative route to come up ABOVE defenders spawn instead of aside.
+- Defender Spawn Cut-off button now also temporarily disables Canyon Spawn. Therefore defenders only come out of storage for about 20 sec.
+- Added additional route that opens up a Single hammer launch from out of the main cave.
+- Replaced Shieldbelt in attackers spawn with thigh-pads.
+- Replaced Courtyard belt with Armor.
+- Replaced Defenders Armor with Thigh-pads.
+
+Changelog 22th October 2020
+
+- Adjusted BlockPlayer Actors to have higher height radius.
+- Made small adjustments to endgame canyon. Now has an small house were a teleporter triggers the endgame.
+- Adjusted defenders spawn point back in map. Takes a little longer (2 sec or so) to get into the final area to give attackers a better chance.
+
+Changelog 6th August 2020
+
+ATTACKERS SPECIFIC CHANGES
+- Added shieldbelt in spawnarea. Hammerjump needed to obtain.
+- Added signs nearby teleporters for quick reference.
+- Added ammo to Minigun and Shockrifle.
+
+DEFENDERS SPECIFIC CHANGES
+- Defenders now spawn in a room with teleporters. ( Courtyard - Library - Canyon )
+- Minigun in spawnroom.
+- Removed biorifle on defender side, replaced by ripper.
+- Thighpad replaced with Armor
+- Flakcannon added.
+
+OVERAL GAMEPLAY CHANGES
+- Added Shieldbelt near Gatehouse. Hammerjump / boost needed.
+- Added BlockPlayer actors on castle walls to avoid 10 second map completion.
+- Added alternative route to end objective. 
+- Added defensive tower near end objective.
+
+NOTE
+Hammerboost via gatehouse over the main doors is still possible. But players will need to drop between the two doors and take the alternative route. Obviously there is a specialevent trigger when such thing occures to inform defending team.
+
