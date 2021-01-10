@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=LCWeapons_0025uta.LCMutator,Class=Class,MetaClass=Engine.Mutator,Description="Lag Compensator")
+Object=(Name=LCWeapons_0025uta.LCComboGib,Class=Class,MetaClass=Engine.Mutator,Description="LC: ComboGib, Requires Lag Compensator mutator loaded!")
+Object=(Name=LCWeapons_0025uta.FV_ColoredShock,Class=Class,MetaClass=Engine.Mutator,Description="LC: ColoredShock, Requires Lag Compensator mutator loaded!")
+
