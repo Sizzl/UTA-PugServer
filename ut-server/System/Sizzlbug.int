@@ -1,0 +1,2 @@
+[Public]
+Object=(Name=Sizzlbug.HitRegistration,Class=Class,MetaClass=Engine.Mutator,Description="Sizzl's Debug Tools,Announces hit registrations.")
