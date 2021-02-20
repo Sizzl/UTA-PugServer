@@ -152,14 +152,24 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
                             @(Get-ChildItem "$($Source)\$($_)" -Filter "$($File).$($Types.Get_Item($_))" | % {
                                 Copy-Item -Path "$($_.Directory.FullName)\$($_.Name)" -Destination "$($Path)\$($_.Directory.BaseName)\" -Verbose
                                 #"Copy-Item -Path `"$($_.Directory.FullName)\$($_.Name)`" -Destination `"$($Path)\$($_.Directory.BaseName)\`" -WhatIf"
+                                $Depends.Missing = $Depends.Missing | ? {$_ -ne $File} # Remove from missing list
                             })
                         }
                     }
                 }
             }
-
+            if ($AllDepends.Missing.Count) {
+                $AllDepends.Missing += $Depends.Missing
+                $AllDepends.Missing = $AllDepends.Missing | Select -Unique
+            } else {
+                $AllDepends = $Depends | Select Missing
+            }
         } else {
             Write-Host "No support for PACKAGEDUMP. Please upgrade UCC" -ForegroundColor Red
+        }
+        if ($AllDepends.Missing.Count) {
+            Write-Host "Files still not accounted for:" -ForegroundColor Yellow
+            $AllDepends.Missing | % { Write-Host " - $($_)" -ForegroundColor Red } 
         }
         Set-Location $tmpPath
     } else {
