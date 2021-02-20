@@ -53,11 +53,21 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
     } else {
         $UTPath = $(Resolve-Path $UTPath -ErrorAction SilentlyContinue).Path
     }
-
-    if (Test-Path "$($UTPath)\System\ucc.exe") {
+    if ($([System.Environment]::OSVersion.Platform) -notmatch "^Win") {
+        $UCCPath = "$($UTPath)/System/ucc-bin"
+    }
+    else
+    {
+        $UCCPath = "$($UTPath)\System\ucc.exe"
+    }
+    if (Test-Path $UCCPath) {
         $tmpPath = Get-Location
         Set-Location $UTPath
-        $CheckPD = System\ucc.exe packagedump
+        if ($([System.Environment]::OSVersion.Platform) -notmatch "^Win") {
+            $CheckPD = System/ucc-bin packagedump
+        } else {
+            $CheckPD = System\ucc.exe packagedump
+        }
         if ($CheckPD -match "Package\sname") {
             $PugMaps -replace ":small_orange_diamond:" -replace "\d{1,2}\)" -split "\s" | ? {$_.Length} | % {
                 $map = $_
@@ -67,11 +77,19 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
                     if (Test-Path -LiteralPath "$($Path)\Maps\pkgd-$($map).txt") {
                         Get-ChildItem -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" | % {
                             if ($_.Length -lt 4096) {
-                                System\ucc.exe packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                                if ($([System.Environment]::OSVersion.Platform) -notmatch "^Win") {
+                                    System/ucc-bin packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                                } else {
+                                    System\ucc.exe packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                                }
                             }
                         }
                     } else {
-                        System\ucc.exe packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                        if ($([System.Environment]::OSVersion.Platform) -notmatch "^Win") {
+                            System/ucc-bin packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                        } else {
+                            System\ucc.exe packagedump "$($Path)\Maps\$($map).unr" | Out-File -LiteralPath "$($Path)\Maps\pkgd-$($map).txt" -Force
+                        }
                     }
                 } else {
                     Write-Host "Not found: $($map).unr" -ForegroundColor Red
