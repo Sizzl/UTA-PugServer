@@ -44,7 +44,7 @@ $Types = @{"System"="u";"Textures"="utx";"Sounds"="uax";"Music"="umx";"Maps"="un
 
 # Built-in files to ignore
 $Ignore="^Activates$|noxxsnd|^VRikers$|AmbAncient|AmbCity|^Addon1$|^rain$|^LadderSounds$|AmbModern|AmbOutside|DoorsAnc|^Extro$|^Pan1$|DoorsAnc|DoorsMod|^DDay$|\dVoice$|^Botpck10$|^Cannon$|^Foregone$|^Nether$|^Mission$|^Mech8$|^Strider$|^Wheels$|^Engine$|^Botpack$|^UWindow$|^Editor$|^Core$|^city$|Crypt_FX|DDayFX|^Detail$|^Egypt$|EgyptPan|^eol$|FireEng|FractalFx|GreatFire|Indus\d|ISVFX|^LavaFX$|^Liquids$|Metalmys|Old_FX$|RainFX$|ShaneChurch|TCrystal|^UT$|UTbase1|UTcrypt|UTtech\d|XbpFX|^XFX$"
-
+$IgnoreGroup="^Wall$|^Base$|^Floor$|^Light$|^Ceiling$|^Trim$|^Pillar$|^Deco$|^Glass$|^Door$|^Ammocount$|^Mask$|^Girder$|^LensFlar$|^Signs$|^General$|^Looping$|^Panel$|^Misc$|^Icons$|^OneShot$|^Skins$|^GenericThumps$|^2nd$|^Cloth$|^Blob$|^Effects$|^\(All\)$|^Translocator$|^Pickups$|^ground$|^Rock$|^Water$|^sky$|^Woods$|^Animated2$|^Animated$|^Beeps$|^Galleon$|^ClicksBig$|^Dispersion$|^metal$|^Stoonestuff$|^Stills$|^ShieldBelt$|^Walls$|^lava$|^Eightball$|^flak$|^ASMD$|^Krall$|^WarExplosionS2$|^Other$|^Switch$|^ClicksSmall$|^Requests$|^Redeemer$|^Male$|^Grass$|^Testing$|^Harbour$|^ShaneFx$|^Wood$|^Lights$|^Castle$|^Sky1$|^Stone$|^Doors$|^Arch$|^Masked$|^Ut_Explosions$|^Effect25$|^FlameEffect$|^Generic$|^Crystals$|^Minigun$|^xtreme$|^Roof$|^walls$|^floors$|^Other$|^Stonestuff$|^Miscellaneous$"
 if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
     $Path = $(Resolve-Path $Path -ErrorAction SilentlyContinue).Path
 
@@ -136,7 +136,7 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
                     @($Files | % {
                         $File = $_
                         $FoundFiles = @()
-                        $Types.Keys | Sort -Descending | % {
+                        $Types.Keys | Sort-Object -Descending | % {
                             $FoundFiles += @(Get-ChildItem "$($Path)\$($_)" -Filter "$($File).$($Types.Get_Item($_))" | % { "$($_.Directory.Name)\$($_.Name)" })
                         }
                         if ($FoundFiles.Count -gt 0) {
@@ -154,7 +154,7 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
                 }
             }
 
-            $Depends.Imports | Select -Unique | % {
+            $Depends.Imports | Select-Object -Unique | % {
                 if (!(Test-Path -LiteralPath "$($Path)\$($_)")) {
                     Write-Host "NOT PRESENT: $($_)" -foregroundcolor Red
                 } else {
@@ -178,16 +178,16 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
             }
             if ($AllDepends.Missing.Count) {
                 $AllDepends.Missing += $Depends.Missing
-                $AllDepends.Missing = $AllDepends.Missing | Select -Unique
+                $AllDepends.Missing = $AllDepends.Missing | Select-Object -Unique
             } else {
-                $AllDepends = $Depends | Select Missing
+                $AllDepends = $Depends | Select-Object Missing
             }
         } else {
             Write-Host "No support for PACKAGEDUMP. Please upgrade UCC" -ForegroundColor Red
         }
         if ($AllDepends.Missing.Count) {
             Write-Host "Files still not accounted for:" -ForegroundColor Yellow
-            $AllDepends.Missing | % { Write-Host " - $($_)" -ForegroundColor Red } 
+            $AllDepends.Missing | Select-Object -Unique | ? {$_.Trim() -notmatch $Ignore -and $_.Trim() -notmatch $IgnoreGroup} | % { Write-Host " - $($_)" -ForegroundColor Red } 
         }
         Set-Location $tmpPath
     } else {
