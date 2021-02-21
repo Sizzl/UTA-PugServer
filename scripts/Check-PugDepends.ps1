@@ -71,7 +71,7 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
         if ($CheckPD -match "Package\sname") {
             $PugMaps -replace ":small_orange_diamond:" -replace "\d{1,2}\)" -split "\s" | ? {$_.Length} | % {
                 $map = $_
-
+                Get-ChildItem -LiteralPath "$($Path)\Maps" -Filter "$($map).unr" | % { $map = $_.BaseName } # Fix case sensitive Test-Path for Linux
                 if (Test-Path -LiteralPath "$($Path)\Maps\$($map).unr") {
                     Write-Host "Dumping contents of $($map)"
                     if (Test-Path -LiteralPath "$($Path)\Maps\pkgd-$($map).txt") {
