@@ -185,9 +185,10 @@ if ($(Resolve-Path $Path -ErrorAction SilentlyContinue).Path.Length) {
         } else {
             Write-Host "No support for PACKAGEDUMP. Please upgrade UCC" -ForegroundColor Red
         }
-        if ($AllDepends.Missing.Count) {
+        $FilteredMissing = $AllDepends.Missing | Select-Object -Unique | ? {$_.Trim() -notmatch $Ignore -and $_.Trim() -notmatch $IgnoreGroup}
+        if ($FilteredMissing.Count) {
             Write-Host "Files still not accounted for:" -ForegroundColor Yellow
-            $AllDepends.Missing | Select-Object -Unique | ? {$_.Trim() -notmatch $Ignore -and $_.Trim() -notmatch $IgnoreGroup} | % { Write-Host " - $($_)" -ForegroundColor Red } 
+            $FilteredMissing | % { Write-Host " - $($_)" -ForegroundColor Red } 
         }
         Set-Location $tmpPath
     } else {
