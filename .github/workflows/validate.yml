@@ -1,0 +1,34 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: actions/checkout@v2
+        with:
+          repository: 'Sizzl/UTPackage.js'
+          path: 'scripts/Modules'
+
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Validate
+        run: |
+          cd scripts
+          node Check-Dependencies.js ../ut-server
+          
