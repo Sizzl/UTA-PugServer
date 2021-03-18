@@ -1,6 +1,8 @@
 # UTA-PugServer
 Pick-up game server configuration for utassault.net
 
+[![Dependency Check](https://github.com/Sizzl/UTA-PugServer/actions/workflows/validate.yml/badge.svg)](https://github.com/Sizzl/UTA-PugServer/actions/workflows/validate.yml)
+
 ## Server configuration
 It is recommended to make changes to your server ini file are required prior to first-start of the server with this gametype.
 
