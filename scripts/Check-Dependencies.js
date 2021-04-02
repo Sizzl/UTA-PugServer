@@ -147,8 +147,12 @@ sources.forEach(function (sourcepath) {
 // -- Start a montitoring thread --
 var main = setInterval(function () { 
 	if (mapcount > -1) {
-		if(mapschecked==mapcount) {
-			console.log('\x1b[92mAll maps parsed.\x1b[39m');
+		if(mapschecked>=mapcount) {
+			if (mapschecked>mapcount) {
+				console.log('\x1b[92mAll maps parsed (and more?!)\x1b[39m');
+			} else {
+				console.log('\x1b[92mAll maps parsed.\x1b[39m');
+			}
 			console.log('\x1b[0m');
 			if (missing.length) {
 				console.warn('-- '+missing.length+' missing files --');
