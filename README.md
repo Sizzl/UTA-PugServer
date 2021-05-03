@@ -78,7 +78,7 @@ bAdminNameScore=True
 bServerNameScore=True
 bServerNameGameType=True
 bCheckServername=True
-bAutoPausing=False
+bAutoPausing=True
 bNoSuicidePenalties=True
 FirstMapStartTime=180
 SubsequentMapStartTime=55
@@ -122,6 +122,14 @@ bClassicDeathMessages=False
 MinFOV=80.000000
 MaxFOV=130.000000
 MaxNameChanges=0
+MaxPauseTime=300
+PauseTimeRemaining[0]=300
+PauseTimeRemaining[1]=300
+MaxPauseCount=10
+PauseCountRemaining[0]=10
+PauseCountRemaining[1]=10
+MaxPausePerMapCount=3
+PauseLeadInOutTime=5
 
 ; ** Legacy hack protection, just disable it these days - there are better options **
 [LeagueAS140.HackProtection]
