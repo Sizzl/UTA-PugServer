@@ -6,7 +6,9 @@ Pick-up game server configuration for utassault.net
 ## Server configuration
 It is recommended to make changes to your server ini file are required prior to first-start of the server with this gametype.
 
-Simply modify the following ini sections:
+An example MapVoteLA config is included (MapVoteLA.example.ini); copy this to MapVoteLA.ini and modify as needed.
+
+Finally, modify the following ini sections:
 
 ```
 [Engine.GameEngine]
@@ -18,6 +20,7 @@ ServerPackages=EavyAssaultPlus
 ServerPackages=UTA-AuthCP12
 ServerPackages=ZeroPingPlus103
 ServerPackages=LeagueAS140++
+ServerPackages=MapVoteLA13
 ; ** Replace any IpServer.UdpServer or XServerQuery lines with these, if you use extra master servers, copy and paste them here **
 ServerActors=LeagueAS-SP.ServerQuery
 ServerActors=LeagueAS-SP.ServerUplink MasterServerAddress=unreal.epicgames.com MasterServerPort=27900
