@@ -24,7 +24,7 @@ Within your Scene, add Text sources for any or all of the following items:
 
 After installing Python and selecting the path to Python within the Tools > Scripts > Python Settings tab, simply drop the script into the appropriate folder (e.g. \obs-studio\data\obs-plugins\frontend-tools\scripts) and +add it to the active script list.
 
-Once added, enter a valid server IP (or DNS) and gmae port, choose a refresh time (recommended no less than 10s) then select any or all of the text sources against the appropriate line item, then hit Save + Run to start the timer.
+Once added, enter a valid server IP (or DNS) and game port, choose a refresh time (recommended no less than 10s) then select any or all of the text sources against the appropriate line item, then hit Save + Run to start the timer.
 
 Script settings will persist across OBS sessions, and the timer will auto-start when OBS starts (i.e. X seconds after OBS starts, it will fetch the server info).
 
