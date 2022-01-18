@@ -32,6 +32,7 @@ jobs:
       - name: Validate
         run: |
           cd scripts
+          npm install canvas
           node Check-Dependencies.js ../ut-server
           
       - name: Upload Screenshots JPG
