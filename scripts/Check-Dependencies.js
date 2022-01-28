@@ -12,6 +12,10 @@ var timeout=300; // seconds
 
 var path = require('path');
 var fs = require('fs');
+
+if (!(fs.existsSync('./Screenshots'))) {
+	fs.mkdirSync('./Screenshots');
+}
 if (!(fs.existsSync('./UTReader.js')) && !(fs.existsSync('./Modules/UTReader.js'))) {
 	console.error('Dependency missing: UTReader.js');
 	console.log('Aborting due to missing module.');
@@ -108,6 +112,19 @@ sources.forEach(function (sourcepath) {
 							if (err) throw err;
 							const reader  = new utreader(data.buffer);
 							const package = reader.readPackage();
+							package.getScreenshot(function(screenshotArray) {
+							    if (screenshotArray.length > 0) {
+							        // Export screenshots to required formats
+							        const canvas = screenshotArray[0].canvas;
+									var buffer = canvas.toBuffer('image/jpeg', { quality: 0.5 });
+									var filebasic = file.toLowerCase().replace('\.unr','')
+									console.log('- Exporting JPEG screenshot - '+filebasic+'.jpg');
+									fs.writeFileSync('./Screenshots/'+filebasic+'.jpg', buffer)
+									buffer = canvas.toBuffer('image/png');
+									console.log('- Exporting PNG screenshot - '+filebasic+'.png');
+									fs.writeFileSync('./Screenshots/'+filebasic+'.png', buffer)
+							    } 
+							})
 							const depends = package.getDependencies();
 							console.log('\x1b[1m  \"'+package.getLevelSummary().Title+'\"\x1b[22m');
 							console.log('\x1b[0m');
