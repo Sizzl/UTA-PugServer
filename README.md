@@ -19,7 +19,7 @@ ServerPackages=Autorip
 ServerPackages=EavyAssaultPlus
 ServerPackages=UTA-AuthCP12
 ServerPackages=ZeroPingPlus103
-ServerPackages=LeagueAS140++
+ServerPackages=LeagueAS140+++
 ServerPackages=MapVoteLA13
 ; ** Replace any IpServer.UdpServer or XServerQuery lines with these, if you use extra master servers, copy and paste them here **
 ServerActors=LeagueAS-SP.ServerQuery
@@ -33,7 +33,7 @@ ServerActors=UTStatsBeta4_2a.UTStatsSA
 ServerActors=BallFiXstic.FixTele
 ServerActors=ColderSteelFix.ColderSteelFix
 ServerActors=UTA-AuthSP12.Auth_Module
-ServerActors=LeagueAS140++.ModernUTSupport
+ServerActors=LeagueAS140+++.ModernUTSupport
 ; ** Optionally also (if deemed necessary when running older than 469 server, or CPU constraints require): **
 ServerActors=ServerCrashFix_v11.SCFActor
 
@@ -96,7 +96,7 @@ TeamBalanceDelayTime=60
 bPreventMapChangeKick=True
 PreventMapChangeKickTime=40
 AuthModuleClass=LeagueAS140.LeagueAS_AuthAbstract
-EntryActorClassString=LeagueAS140++.ModernLASER
+EntryActorClassString=LeagueAS140+++.ModernLASER
 lastobjcompletiontime=0
 bcrashrecovery=False
 bDisableTIW=False
