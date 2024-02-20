@@ -1,0 +1,8 @@
+#####################################################################################################################################################################
+# Type		Class Name									Property Name										Condition		Property Type		Property Value		#
+#####################################################################################################################################################################
+ALLOW		LeagueAS140Plus_master-904fcf1e.ClientSuperShockBeam			Core.Object.ObjectFlags								EQ				INT					*
+ALLOW		LeagueAS140Plus_master-904fcf1e.ClientSuperShockBeam			LeagueAS140Plus_master-904fcf1e.ClientSuperShockBeam.Free				EQ				STRING				*
+ALLOW		LeagueAS140Plus_master-904fcf1e.bbPlayerStatics				LeagueAS140Plus_master-904fcf1e.bbPlayerStatics.*						EQ				ANY					*
+ALLOW		LeagueAS140Plus_master-904fcf1e.PureHUDHelper					LeagueAS140Plus_master-904fcf1e.PureHUDHelper.*						EQ				ANY					*
+ALLOW		LeagueAS140Plus_master-904fcf1e.bbPlayer						LeagueAS140Plus_master-904fcf1e.bbPlayer.bTraceInput					EQ				BOOL				*
