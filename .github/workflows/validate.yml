@@ -13,15 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           repository: 'Sizzl/UTPackage.js'
           path: 'scripts/Modules'
 
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
           node-version: '14.x'
 
@@ -36,14 +36,14 @@ jobs:
           node Check-Dependencies.js ../ut-server
           
       - name: Upload Screenshots JPG
-        uses: actions/upload-artifact@v2.2.2
+        uses: actions/upload-artifact@v4
         with:
           name: Screenshots-jpeg
           path: ./scripts/Screenshots/*.jpg
           retention-days: 3
 
       - name: Upload Screenshots PNG
-        uses: actions/upload-artifact@v2.2.2
+        uses: actions/upload-artifact@v4
         with:
           name: Screenshots-png
           path: ./scripts/Screenshots/*.png
