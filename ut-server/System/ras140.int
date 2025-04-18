@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=rAS140.RankedAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo,Description="Ranked Assault")
+Object=(Name=rAS140.RankedAS,Class=Class,MetaClass=Engine.Mutator,Description="Ranked Assault")
