@@ -1,0 +1,100 @@
+#!/bin/sh
+#
+# ucc startup script
+#
+
+# The user preferences directory
+UT_PREFS="${HOME}/.loki/ut"
+
+# Function to find the real directory a program resides in.
+# Feb. 17, 2000 - Sam Lantinga, Loki Entertainment Software
+FindPath()
+{
+    fullpath="`echo $1 | grep /`"
+    if [ "$fullpath" = "" ]; then
+        oIFS="$IFS"
+        IFS=:
+        for path in $PATH
+        do if [ -x "$path/$1" ]; then
+               if [ "$path" = "" ]; then
+                   path="."
+               fi
+               fullpath="$path/$1"
+               break
+           fi
+        done
+        IFS="$oIFS"
+    fi
+    if [ "$fullpath" = "" ]; then
+        fullpath="$1"
+    fi
+    # Is the awk/ls magic portable?
+    if [ -L "$fullpath" ]; then
+        fullpath="`ls -l "$fullpath" | awk '{print $11}'`"
+    fi
+    dirname $fullpath
+}
+
+# Set the home if not already set.
+if [ "${UT_DATA_PATH}" = "" ]; then
+    UT_DATA_PATH="`FindPath $0`/System64"
+fi
+
+if [ "${UTx86_DATA_PATH}" = "" ]; then
+    UTx86_DATA_PATH="`FindPath $0`/System"
+fi
+
+LD_LIBRARY_PATH=.:${UTx86_DATA_PATH}:${UT_DATA_PATH}:${LD_LIBRARY_PATH}
+
+export LD_LIBRARY_PATH
+export UT_DATA_PATH
+export UTx86_DATA_PATH
+
+create_prefpath()
+{
+    path="${UT_PREFS}/$1"
+    if [ ! -d "$path" ]; then
+        echo "Creating directory $path"
+        mkdir "$path"
+    fi
+}
+
+copy_if_needed()
+{
+    dist="${UT_DATA_PATH}/$1"
+    file="${UT_PREFS}/$1"
+    if [ ! -f "$file" ]; then
+        echo "Installing default $file"
+        cp "$dist" "$file"
+    fi
+}
+
+# Hey, it's fun time!
+if [ ! -d ${HOME}/.loki ]
+then
+    mkdir ${HOME}/.loki
+fi
+
+if [ ! -d ${UT_PREFS} ]
+then
+    echo "Creating preferences directory..."
+    create_prefpath
+fi
+create_prefpath System64
+create_prefpath System
+
+# Let's boogie!
+if [ -x "${UT_DATA_PATH}/ucc-bin-amd64" ]
+then
+    echo "$UT_DATA_PATH" > "$UT_PREFS/install_dir"
+	cd "${UT_DATA_PATH}/"
+	exec "./ucc-bin-amd64" $*
+elif [ -x "${UTx86_DATA_PATH}/ucc-bin" ]
+then
+    echo "$UTx86_DATA_PATH" > "$UT_PREFS/install_dir"
+	cd "${UTx86_DATA_PATH}/"
+	exec "./ucc-bin" $*
+else
+    echo "Couldn't run ucc (ucc-bin / ucc-bin-amd64). Is UT_DATA_PATH set?"
+fi
+exit 1

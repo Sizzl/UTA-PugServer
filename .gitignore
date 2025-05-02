@@ -7,6 +7,71 @@ Default.ini
 # Dependency checker
 pkgd-*.txt
 
+# UT untracked
+ut-server/*.txt
+ut-server/*.bat
+ut-server/*.cmd
+ut-server/uc*
+ut-server/Help/ReleaseNotes.htm
+ut-server/Logs/*
+ut-server/Maps/CTF-*
+ut-server/Maps/DOM-*
+ut-server/Maps/DM-*
+ut-server/Textures/UWindowFonts.utx
+ut-server/Textures/LadderFonts.utx
+ut-server/System/*.bmp
+ut-server/System/*.htm*
+ut-server/System/*.int
+ut-server/System/*.ini
+ut-server/System/*.log
+ut-server/System/*.md5
+ut-server/System/*.u
+ut-server/System/*.uz
+ut-server/System/*.url
+ut-server/System/ACEFile*
+ut-server/System/ACEv*
+ut-server/System/RunServer*
+ut-server/System/UTStatsBeta4_2.u
+ut-server/System/xcpu*
+ut-server/System/editorres/*
+ut-server/System/Logs/*
+ut-server/System/PlayerManager/*
+ut-server/System/xopengl/*
+ut-server/Web/*
+
+# UT force tracked
+!ut-server/System/AssaultBonusPack.*
+!ut-server/System/DivInfo.*
+!ut-server/System/EggHunt.*
+!ut-server/System/ESP*
+!ut-server/System/EUT*
+!ut-server/System/Jack*
+!ut-server/System/LCW*
+!ut-server/System/LeagueAS*
+!ut-server/System/Library*
+!ut-server/System/MapVoteLA13*
+!ut-server/System/MapVoteLA.example*
+!ut-server/System/Monster*
+!ut-server/System/MvReport*
+!ut-server/System/NoD3D*
+!ut-server/System/Probe*
+!ut-server/System/Pug*
+!ut-server/System/Remote*
+!ut-server/System/rocketsfix*
+!ut-server/System/ServerCrash*
+!ut-server/System/Sizzl*
+!ut-server/System/SmartAS*
+!ut-server/System/SniperHD*
+!ut-server/System/Steel*
+!ut-server/System/Templ*
+!ut-server/System/TF*
+!ut-server/System/TickS*
+!ut-server/System/Uber*
+!ut-server/System/UTA*
+!ut-server/System/UTSt*
+!ut-server/System/XC_S*
+!ut-server/System/ZeroPing*
+
 # Visual Studio 2015 user specific files
 .vs/
 
