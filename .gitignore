@@ -11,6 +11,7 @@ pkgd-*.txt
 ut-server/*.txt
 ut-server/*.bat
 ut-server/*.cmd
+ut-server/uc*
 ut-server/Help/ReleaseNotes.htm
 ut-server/Logs/*
 ut-server/Maps/CTF-*

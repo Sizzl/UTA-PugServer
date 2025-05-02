@@ -1,0 +1,3 @@
+http://ut-files.com/Entire_Server_Download/ut-server-436.tar.gz
+https://ut-files.com/Entire_Server_Download/server_scripts/asu-0.6.tar.gz
+https://github.com/OldUnreal/UnrealTournamentPatches/releases/download/v469e-rc8/OldUnreal-UTPatch469e-Linux-amd64.tar.bz2
