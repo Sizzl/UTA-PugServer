@@ -58,6 +58,7 @@ ut-server/Web/*
 !ut-server/System/Pug*
 !ut-server/System/Remote*
 !ut-server/System/rocketsfix*
+!ut-server/System/s5*
 !ut-server/System/ServerCrash*
 !ut-server/System/Sizzl*
 !ut-server/System/SmartAS*
