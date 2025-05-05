@@ -26,9 +26,16 @@ git merge origin/master -v >>~/git-update.log
 
 if [ -f ut-server/System/InstaGibPlus.example.ini ]; then
   cp ut-server/System/InstaGibPlus.example.ini ut-server/System/InstaGibPlus.ini
+  if [ -d ut-server/System64 ]; then
+    cp ut-server/System/InstaGibPlus.example.ini ut-server/System64/InstaGibPlus.ini
+  fi
 fi
 
 if [ -f ut-server/System/MapVoteLA.example.ini ]; then
   cp ut-server/System/MapVoteLA.example.ini ut-server/System/MapVoteLA.ini
+  if [ -d ut-server/System64 ]; then
+    cp ut-server/System/MapVoteLA.example.ini ut-server/System64/MapVoteLA.ini
+  fi
 fi
+
 popd >/dev/null
