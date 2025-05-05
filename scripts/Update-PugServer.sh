@@ -2,12 +2,10 @@
 
 MYPUGHOME=~/UTA-PugServer
 
-if [ "$1" != "" ] && [ -d $1 ]
-then
+if [ "$1" != "" ] && [ -d $1 ]; then
  pushd $1 >/dev/null
 else
- if [ -d $MYPUGHOME ]
- then
+ if [ -d $MYPUGHOME ]; then
   pushd $MYPUGHOME >/dev/null
  else
   echo "UTA PUG server root directory not specified in command line parameter or variable"
@@ -26,13 +24,11 @@ do
 done
 git merge origin/master -v >>~/git-update.log
 
-if [ -f ut-server/System/InstaGibPlus.example.ini ]
-then
+if [ -f ut-server/System/InstaGibPlus.example.ini ]; then
   cp ut-server/System/InstaGibPlus.example.ini ut-server/System/InstaGibPlus.ini
 fi
 
-if [ -f ut-server/System/MapVoteLA.example.ini ]
-then
+if [ -f ut-server/System/MapVoteLA.example.ini ]; then
   cp ut-server/System/MapVoteLA.example.ini ut-server/System/MapVoteLA.ini
 fi
 popd >/dev/null
