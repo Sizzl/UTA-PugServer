@@ -49,6 +49,7 @@ ut-server/Web/*
 !ut-server/System/LCW*
 !ut-server/System/LeagueAS*
 !ut-server/System/Library*
+!ut-server/System/MapFix*
 !ut-server/System/MapVoteLA13*
 !ut-server/System/MapVoteLA.example*
 !ut-server/System/Monster*
