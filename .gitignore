@@ -43,11 +43,14 @@ ut-server/Web/*
 
 # UT force tracked
 !ut-server/System/AssaultBonusPack.*
+!ut-server/System/BaseCyl*
 !ut-server/System/DivInfo.*
 !ut-server/System/EggHunt.*
 !ut-server/System/ESP*
 !ut-server/System/EUT*
+!ut-server/System/HeadCyl*
 !ut-server/System/Jack*
+!ut-server/System/InstaGib*
 !ut-server/System/LCW*
 !ut-server/System/LeagueAS*
 !ut-server/System/Library*
