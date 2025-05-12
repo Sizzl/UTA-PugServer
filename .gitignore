@@ -19,6 +19,8 @@ ut-server/Maps/DOM-*
 ut-server/Maps/DM-*
 ut-server/Textures/UWindowFonts.utx
 ut-server/Textures/LadderFonts.utx
+ut-server/SystemLocalized/*
+ut-server/System64/*
 ut-server/System/*.bmp
 ut-server/System/*.htm*
 ut-server/System/*.int
