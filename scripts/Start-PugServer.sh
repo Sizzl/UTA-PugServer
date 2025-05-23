@@ -19,7 +19,11 @@ else
 fi
 
 if [ -f $MYPUGHOME/scripts/Update-PugServer.sh ]; then
-    /bin/bash $MYPUGHOME/scripts/Update-PugServer.sh
+    if [ "$1" != "" ]; then
+        /bin/bash $MYPUGHOME/scripts/Update-PugServer.sh $1/../
+    else
+        /bin/bash $MYPUGHOME/scripts/Update-PugServer.sh
+    fi
 fi
 
 if [ -f ./ucc64.init ]; then
