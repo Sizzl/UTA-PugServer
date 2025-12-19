@@ -46,8 +46,10 @@ ut-server/Web/*
 !ut-server/System/BaseCyl*
 !ut-server/System/DivInfo.*
 !ut-server/System/EggHunt.*
+!ut-server/System/Enhanced*
 !ut-server/System/ESP*
 !ut-server/System/EUT*
+!ut-server/System/Furry*
 !ut-server/System/HeadCyl*
 !ut-server/System/Jack*
 !ut-server/System/InstaGib*
@@ -153,3 +155,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+*.copytemp
